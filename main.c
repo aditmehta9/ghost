@@ -24,7 +24,7 @@ int main()
   switch(n)
   {
     case 1:{
-            if(count==0)
+            if(count==5)
              printf("No Number is in Telephone Diary.");
             
             else 
