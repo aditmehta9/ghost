@@ -20,6 +20,7 @@ print "<center>"
 for i in range(len(raw_contest_name)):
     newSoup = BeautifulSoup(str(raw_contest_name[i]),'html.parser');
     data = newSoup.a.string;
+    source = "template";
     data = str(data);
     dummy = re.sub("\s+","",data,len((data)),re.I|re.M);
     if dummy not in reserved:
